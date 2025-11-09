@@ -1,0 +1,14 @@
+package com.sistema.veiculos;
+
+public class Moto extends Veiculo {
+   
+    public Moto(String marca, String modelo, int ano) {
+        super(marca, modelo, ano);
+    }
+
+ 
+    @Override
+    public void acelerar() {
+        System.out.println(modelo + " " + marca + " está acelerando e empinando a roda dianteira!");
+    }
+}
